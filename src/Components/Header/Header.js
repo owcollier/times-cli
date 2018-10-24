@@ -7,10 +7,13 @@ export class Header extends React.Component {
       <div className="header-wrapper">
         <header className="header">
           <div className="header-hamburger">
+            Hello hamburger!
           </div>
           <div className="header-branding">
+            Hello branding!
           </div>
           <div className="header-expanded">
+            Hello expanded!
           </div>
         </header>
       </div>

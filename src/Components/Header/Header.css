@@ -1,0 +1,17 @@
+
+
+@media (min-width: 1025px) {
+
+  .header-hamburger {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .header-expanded {
+    display: none;
+  }
+
+}
