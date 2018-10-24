@@ -1,18 +1,18 @@
 import React from 'react';
-import './Header.css';
+import styles from './Header.module.css';
 
 export class Header extends React.Component {
   render() {
     return (
       <div className="header-wrapper">
         <header className="header">
-          <div className="header-hamburger">
+          <div className={styles.hamburger}>
             Hello hamburger!
           </div>
-          <div className="header-branding">
+          <div className={styles.branding}>
             Hello branding!
           </div>
-          <div className="header-expanded">
+          <div className={styles.expanded}>
             Hello expanded!
           </div>
         </header>
@@ -22,8 +22,3 @@ export class Header extends React.Component {
 }
 
 export default Header;
-
-// min-width 1025px for hamburger
-// max-width 1024px for expanded nav
-
-// 
