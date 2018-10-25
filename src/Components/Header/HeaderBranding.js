@@ -6,7 +6,7 @@ export function HeaderBranding(props) {
   return (
     <div className={styles.branding}>
       <div>Smiley</div>
-      <div></div>
+      <div className={styles.pipe}></div>
       <div>Hello NYTimes!</div>
     </div>
   );
