@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css';
+import HeaderBranding from './HeaderBranding';
 
 export class Header extends React.Component {
   render() {
@@ -9,9 +10,7 @@ export class Header extends React.Component {
           <div className={styles.hamburger}>
             Hello hamburger!
           </div>
-          <div className={styles.branding}>
-            Hello branding!
-          </div>
+          <HeaderBranding />
           <div className={styles.expanded}>
             Hello expanded!
           </div>

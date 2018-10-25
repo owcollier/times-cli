@@ -1,11 +1,10 @@
 import React from 'react';
 import styles from './Header.module.css';
-import Header from './Header';
 
 export function HeaderBranding(props) {
 
   return (
-    <div>
+    <div className={styles.branding}>
       <div>Smiley</div>
       <div></div>
       <div>Hello NYTimes!</div>
@@ -14,4 +13,4 @@ export function HeaderBranding(props) {
 
 }
 
-export default Header;
+export default HeaderBranding;
