@@ -4,7 +4,7 @@ import styles from './Header.module.css';
 export class Header extends React.Component {
   render() {
     return (
-      <div className="header-wrapper">
+      <div className={styles.headerWrapper}>
         <header className={styles.header}>
           <div className={styles.hamburger}>
             Hello hamburger!
