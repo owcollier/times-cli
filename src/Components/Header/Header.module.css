@@ -1,4 +1,8 @@
 
+.header {
+  height: 65px;
+  padding: 0 25px;
+}
 
 .branding {
   padding-left: 1em;
